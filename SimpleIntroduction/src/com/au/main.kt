@@ -1,7 +1,5 @@
 package com.au
 
-import com.au.model.person.Adult
-
 fun main(args: Array<String>) {
     println("Hello OCTO Oz!!")
 

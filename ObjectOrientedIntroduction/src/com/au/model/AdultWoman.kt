@@ -1,5 +1,9 @@
 package com.au.model
 
+/**
+ * PUBLIC by default
+ * "final" by default
+ */
 class AdultWoman : Person, Woman {
     override fun sayHello() {
         super<Person>.sayHello()
@@ -10,7 +14,8 @@ class AdultWoman : Person, Woman {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun getFullName(firstName: String, lastname: String): String {
-        return firstName.plus(" ").plus(lastname)
-    }
+    /**
+     * "final" by default
+     */
+    override fun getFullName(firstName: String, lastname: String): String = firstName.plus(" ").plus(lastname)
 }
