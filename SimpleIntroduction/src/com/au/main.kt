@@ -1,28 +1,27 @@
 package com.au
 
-import com.au.model.Adult
-import com.au.model.Child
+import com.au.model.person.Adult
 
 fun main(args: Array<String>) {
-    println("Hello, World")
+    println("Hello OCTO Oz!!")
 
-   /* val enguerrand = Adult()
+    /* val enguerrand = Adult()
 
-    enguerrand.Name = "Enguerrand"
-    println("Name of our adult is ${enguerrand.Name}")
+     enguerrand.Name = "Enguerrand"
+     println("Name of our adult is ${enguerrand.Name}")
 
-    enguerrand.Name = "Steve"
-    println("Name of our adult is ${enguerrand.Name}")
+     enguerrand.Name = "Steve"
+     println("Name of our adult is ${enguerrand.Name}")
 
-    enguerrand.displayName()
+     enguerrand.displayName()
 
     val mike = Child("mike")
 
-    mike.displayName()
+     mike.displayName()
 
-    mike.Name = "Steve"
+     mike.Name = "Steve"
 
-    mike.displayWithHighOrderFunc(::lambda)*/
+     mike.displayWithHighOrderFunc(::lambda)*/
 }
 
 fun lambda(str : String) : Unit {
