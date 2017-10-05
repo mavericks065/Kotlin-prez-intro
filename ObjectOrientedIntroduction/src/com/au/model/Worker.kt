@@ -4,8 +4,8 @@ package com.au.model
  * "open" to be able to extend it
  * Primary constructor below
  */
-open class Worker() : Person {
-    var firstname = ""
+open class Worker : Person {
+    var firstname: String = ""
     var lastname = ""
 
     override fun displayName() {

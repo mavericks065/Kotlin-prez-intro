@@ -5,11 +5,11 @@ fun main(args: Array<String>) {
 
     /* val enguerrand = Adult()
 
-     enguerrand.Name = "Enguerrand"
-     println("Name of our adult is ${enguerrand.Name}")
+     enguerrand.name = "Enguerrand"
+     println("name of our adult is $enguerrand.name")
 
-     enguerrand.Name = "Steve"
-     println("Name of our adult is ${enguerrand.Name}")
+     enguerrand.name = "Steve"
+     println("name of our adult is $enguerrand.name")
 
      enguerrand.displayName()
 
@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 
      mike.displayName()
 
-     mike.Name = "Steve"
+     mike.name = "Steve"
 
      mike.displayWithHighOrderFunc(::lambda)*/
 }

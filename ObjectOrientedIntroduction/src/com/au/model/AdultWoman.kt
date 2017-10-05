@@ -3,8 +3,10 @@ package com.au.model
 /**
  * PUBLIC by default
  * "final" by default
+ * multiple implementation
  */
 class AdultWoman : Person, Woman {
+
     override fun sayHello() {
         super<Person>.sayHello()
         super<Woman>.sayHello()

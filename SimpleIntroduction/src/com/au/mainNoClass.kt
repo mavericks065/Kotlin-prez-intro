@@ -37,6 +37,6 @@ class Question {
     var Question = "In what year did we land on the moon ?"
 
     fun displayAnswer() {
-        println("You said it was in ${Answer}")
+        println("You said it was in $Answer")
     }
 }

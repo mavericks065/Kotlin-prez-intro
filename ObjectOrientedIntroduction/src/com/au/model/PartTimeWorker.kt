@@ -1,7 +1,7 @@
 package com.au.model
 
 /**
- * implementation / inheritance of a normal class
+ * implementation / derive of a normal class
  */
 class PartTimeWorker(var nbOfHours: Int = 12) : Worker() {
 
