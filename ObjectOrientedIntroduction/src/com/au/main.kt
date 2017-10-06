@@ -1,13 +1,24 @@
 package com.au
 
-import com.au.model.AdultWoman
+import com.au.model.FullTimeWorker
+import com.au.model.User
 
 fun main(args: Array<String>) {
 
-    val miss = AdultWoman()
+//    val miss = AdultWoman()
+//
+//    miss.sayHello()
+//    val fullname = miss.getFullName("Johanna")
+//
+//    println(fullname)
 
-    miss.sayHello()
-    val fullname = miss.getFullName("Johanna")
+    val worker = FullTimeWorker()
+    val erwan = User("erwan", "1234", worker)
+    val thibaut = User("erwan", "1234", worker)
 
-    println(fullname)
+    if (erwan.equals(thibaut)) {
+        println("erwan = thibaut")
+    } else {
+        println("nope")
+    }
 }

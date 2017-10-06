@@ -2,10 +2,10 @@ package com.au
 
 fun main(args: Array<String>) {
     val text = "String With    multiple \t whitespace"
-    println(replaceMultipleWhiteSpace(text))
+//    println(replaceMultipleWhiteSpace(text))
     // Function extension of String
 //    println(text.replaceMultipleWhiteSpaceEx())
-//    println(text add " test infix")
+    println(text add " test infix")
 }
 
 
@@ -20,6 +20,4 @@ fun String.replaceMultipleWhiteSpaceEx() : String {
     return regex.replace(this, " ")
 }
 
-infix fun String.add(str: String) : String {
-    return this.plus(str)
-}
+infix fun String.add(str: String) : String = this.plus(str)

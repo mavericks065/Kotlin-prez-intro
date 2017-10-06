@@ -9,7 +9,7 @@ class FullTimeWorker(var nbOfHours: Int = 8) : Worker() {
     /**
      * Secondary constructor
      */
-    constructor(nbOfHours: Int, company: String = "sel-employed") : this(nbOfHours) {
+    constructor(nbOfHours: Int, company: String = "self-employed") : this(nbOfHours) {
         this.company = company
     }
 

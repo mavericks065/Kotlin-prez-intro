@@ -5,7 +5,7 @@ package com.au.model
  * Primary constructor below
  */
 open class Worker : Person {
-    var firstname: String = ""
+    var firstname = ""
     var lastname = ""
 
     override fun displayName() {
